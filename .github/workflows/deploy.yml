@@ -23,7 +23,7 @@ jobs:
           pnpm install
 
       - name: Build VuePress
-        run: pnpm docs:build
+        run: npx vuepress build .vuepress
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
