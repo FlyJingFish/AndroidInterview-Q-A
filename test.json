@@ -1,0 +1,11 @@
+{
+  "enable": true,
+  "versionCode": 1,
+  "versionName": "1.0",
+  "url": "app-plugin-debug.apk",
+  "name": "app-plugin-debug",
+  "startActivity": "com.app_plugin.app.MainActivity",
+  "contentProviders": [
+
+  ]
+}
